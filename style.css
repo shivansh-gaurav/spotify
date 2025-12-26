@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+
+.imageimagenavnav{
+    width: 4vh;
+    margin: 5px;
+    position: relative;
+    left: 1vh;
+}
+.imagehome{
+    height: 4vh;
+    margin: 5px;
+    position: relative;
+    left: 49vh;
+    border: 0px solid pink;
+    border-radius: 200%;
+    background-color:rgb(35, 35, 35);
+    justify-content: center;
+}
+.dih{
+    /* padding: 20%; */
+}
+.sim{
+    height: 4vh;
+    position: relative;
+    margin: 5px;
+    /* justify-content: center; */
+    /* left: 41vh; */
+    bottom: 5px;
+}
+.navflex{
+    display: flex;
+    /* justify-content: center; */
+}
+.searchbar{
+    display: flex;
+    /* position: absolute; */
+    background-color: rgb(52, 52, 52);
+    /* left: 30vw; */
+    /* justify-content: center; */
+    position: relative;
+    left: 49vh;
+    border-radius: 20px;
+    width: 400px;
+    margin: 5px;
+}
+.searchbar p{
+    color: rgb(168, 168, 168);
+    padding: 5%;
+    position: relative;
+    /* left: 41vh; */
+    width: 13vw;
+    /* width: 400px; */
+    align-items: center;
+    margin-top: 0px;
+    /* margin-bottom: 10px; */
+    bottom: 12px;
+    left: 0px;
+    margin-left: -15px;
+}
+.explore{
+    background-color: white;
+    position: relative;
+    left: 32vw;
+    /* padding-top: 2px; */
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 27px;
+    top: -7px;
+}
+.explore p{
+    font-weight: bold;
+    padding: 10px;
+}
+.e-91000-icon{
+    fill: white;
+}
+.install{
+    color: white;
+    position: relative;
+    left: 33vw;
+    top: 12px;
+}
+.sidebar{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.libimages{
+    grid-column: span 2;
+}
